@@ -1,0 +1,23 @@
+@@ -0,0 +1,22 @@
++#!/usr/local/bin/perl
++#
++# Program to open the password file, read it in,
++# print it, and close it again.
++
++$file = 'file.txt';		# Name the file
++open(INFO, $file);		# Open the file
++print $file;
++print (":\n");
++@lines = <INFO>;		# Read it into an array
++close(INFO);			# Close the file
++
++
++chomp @lines;
++$" = "\n\# ";
++print "# ";
++print "@lines";                 # Print the array
++print "\n";
++
++
++    
++
