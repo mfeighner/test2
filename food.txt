@@ -2,7 +2,7 @@
 #Displaying arrays
 #Since context is important, it shouldn't be too surprising that the following all produce different results: 
 #print @food;	# By itself
-#print "@food";	# Embedded in double quotes
+#print "@food";	# Embedded in double quotes this is a test this is a test
 #print @food."";	# In a scalar context
 
 @food = ("pizza", "soup", "eggs", "bacon");
